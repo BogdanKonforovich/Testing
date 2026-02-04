@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "ostream": "cpp",
+        "cmath": "c",
+        "conio.h": "c",
+        "stdio.h": "c",
+        "cstdlib": "c",
+        "windows.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c"
+    },
+"terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "args": ["-NoLogo"],
+        "encoding": "utf8"
+    },
+    "Command Prompt": {
+        "path": "C:\\Windows\\System32\\cmd.exe",
+        "args": ["/K", "chcp 65001"],
+        "encoding": "utf8"
+    }
+},
+"terminal.integrated.defaultProfile.windows": "Command Prompt",
+"C_Cpp.errorSquiggles": "disabled",
+"code-runner.runInTerminal": true,
+"code-runner.terminalRoot": "Preferences: Open User Settings (JSON)"
+
+}
