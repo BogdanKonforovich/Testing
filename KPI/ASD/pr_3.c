@@ -15,7 +15,7 @@ int main() {
     scanf("%lf", &E);
 
     Sn = (0.5 - (n - 1)) * x / n * S0;
-    S += Sn;
+    S += Sn;  
 
     while (fabs(Sn) >= E) {
         n++;

@@ -30,7 +30,6 @@ int main() {
             }y<=0 && x<=0 && pow(y, 2)<=(-x) && (-x)<=sqrt(-y);
         }
     } 
-    system("pause"); 
     return 0; 
     
 }
